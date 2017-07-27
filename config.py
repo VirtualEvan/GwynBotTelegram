@@ -27,4 +27,4 @@ def get_token():
 
 
 def get_logs_dir():
-    return Config.get("directory", "logs")
+    return Config.get("directory", "logs_directory")
